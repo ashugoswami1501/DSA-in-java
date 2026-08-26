@@ -1,7 +1,5 @@
 class Solution {
-    public boolean isAnagram(String S, String T) {
-        String s = S.toLowerCase();
-        String t = T.toLowerCase();
+    public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
